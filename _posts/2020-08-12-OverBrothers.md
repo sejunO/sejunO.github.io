@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "지금부터 시작 "
-subtitle: "I'm go to 엄진영의 코딩스쿨....now."
-date: 2020-08-11 19:00:00 +0900
+title: "오버로딩과 오버라이딩"
+subtitle: "자바에서 다형성을 지원하는 방법들"
+date: 2020-08-12 19:00:00 +0900
 background: '/img/posts/image0.jpeg'
 ---
 
