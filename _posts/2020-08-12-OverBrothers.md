@@ -14,7 +14,7 @@ background: '/img/posts/image0.jpeg'
 
 파라미터의 형식은 다르지만 같은 기능을 수행하는 메서드에 대해 같은 이름을 부여함으로써 프로그래밍의 **일관성**을 제공하기 위한 문법
 
-```{.java}
+```java
 class X {
     X() {
         System.out.println("기본 생성자");
