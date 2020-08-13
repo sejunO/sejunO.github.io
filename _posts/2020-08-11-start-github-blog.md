@@ -2,7 +2,7 @@
 layout: post
 title: "잘 부탁해"
 subtitle: "Hello World, Hello Blog."
-date: 2020-08-11 19:27:00 +0900
+date: 2020-08-11 19:20:00 +0900
 background: '/img/posts/image0.jpeg'
 ---
 
