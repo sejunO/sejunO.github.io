@@ -58,7 +58,7 @@ static class car implements Cloneable {
     @Override
     public Car clone() throws CloneNotSupportedException {
         Car copy = (Car) super.clone();
-        copy.engine = this.engine.clone();		//깊은 복사
+        copy.engine = this.engine.clone(); //깊은 복사
         return copy;
     }
     '''
