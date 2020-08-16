@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "얕은 복사와 깊은 복사"
-subtitle: "공익할 때가 생각나네"
+subtitle: "java"
 date: 2020-08-13 19:30:00 +0900
 background: '/img/posts/image0.jpeg'
 ---
