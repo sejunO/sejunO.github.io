@@ -50,3 +50,44 @@ list.get(1); //d
 ```
 
 기본적인 기능들이고 조금만 생각하면 쉽게 사용할 수 있는 수준이다. 실습으로 ArrayList class의 기본기능을 따라한 MyArrayList를 만들어보았다.
+
+### java.util.Arrays
+
+Arrays 클래스는 배열을 다루기 위한 다양한 메서드가 포함되어 있다. 모든 메서드는 클래스 메서드(static method)이므로, 객체를 생성하지 않고 바로 사용할 수 있다.
+
+#### copyOf()
+전달받은 배열의 특정 길이만큼을 새로운 배열로 복사하여 반환한다.
+
+#### copyOfRange()
+배열을 복사할 범위를 정할 수 있다.
+```java
+Arrays.copyOf(원본 배열, 복사할 인덱스 개수);
+Arrays.copyOfRange(원본 배열, 시작 인덱스, 마지막 인덱스);
+int[] arr1 = {1, 2, 3, 4};
+int[] arr2 = Arrays.copyOf(arr1,3); // 1, 2, 3
+int[] arr3 = Arrays.copyOf(arr1,6); // 1, 2, 3, 4, 0, 0\
+int[] arr4 = Arrays.copyOfRange(arr1, 2, 3); // 3, 4
+```
+
+### 그 외 메서드
+배열을 사용할 때 유용한 메서드 몇가지를 배웠다.
+
+#### System.arraycopy();
+System클래스에 메서드이며 byte배열의 값을 자르거나 복사하기 위해 사용한다.
+```java
+System.arraycopy(src, srcPos, dest, destPos, length);
+src - 원배열, srcPos - 소스 배열의 개시 위치, dest - 복사할 배열, destPos - 복사 배열내에 위치, length - 복사할 배열 인덱스 수
+int[] arr1 = {1, 2, 3, 4, 5, 6};
+int[] arr2 = new byte[5];
+System.arraycopy(arr1, 0, arr2,0, 5); // 1, 2, 3, 4, 5
+```
+
+#### contains(), indexOf()
+contains()는 대상 문자열에 특정 문자열이 포함되어 있는지 boolean값으로 반환해주는 함수이다. 비슷한 함수로 indexOf()가 있는데 contains와 다르게 문자의 위치를 반환한다. 공통점은 두 메서드 모두 equals로 확인하기때문에 인스턴스가 다르다면 false / -1을 반환한다.
+```java
+ArrayList list = new ArrayList();
+list.add("aaa");
+list.add("bbb");
+System.out.println(list.contains("aaa")); // true
+System.out.println(list.indexOf("bbb")); // 1
+```
