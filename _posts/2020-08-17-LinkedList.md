@@ -30,7 +30,7 @@ private Node first;
   }
   ```
 
-  #### LinkedList 구현하기 - add
+#### LinkedList 구현하기 - add
   우선 add 메서드이다. 작성한 목록은 총 2가지로 add(int index), add(int index, Object e) 이다.
   ```java
    public boolean add(Object e) {
@@ -129,7 +129,7 @@ public Object remove(int index) {
   ```
   수업시간에 만들고 자습할 때 혼자 만들어 봤을 때 꽤 애를 먹었다. 그냥 해봐라 하면 쉬웠을 텐데 삭제 하는 Node의 next를 null로 만드는게 좀 고민하게 했다. 그리고 size를 줄일 때 위치 때문에도..
 
-  #### LinkedList 구현하기 - set
+#### LinkedList 구현하기 - set
 
   마지막으로 set이다. 특정 index의 값을 원하는 값으로 바꾸는 메서드이다.
 
