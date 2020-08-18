@@ -82,10 +82,9 @@ public Object peek() {
 
 ### Iterator
 자바의 컬렉션 프레임워크에서 컬렉션에 저장되어 있는 요소들을 읽어오는 방법을 표준화한 것이다.<br>
-Iterator 메서드에는 hasNext(), next(), remove()가 있다.
+Iterator 메서드에는 hasNext(), next()가 있다.
 - hasNext() : 읽어올 요소가 남아있는지 확인하는 메서드이다. 요소가 있으면 true, 없으면 false를 반환한다.
 - next() : 다음 데이터를 반환한다.
-- remove() : next()로 읽어온 요소를 삭제한다.
 
 #### Collection interface
 ArrayList를 공부할 때 잠깐 언급했듯이 크게 Set, List, Map로 구성된다.
@@ -93,3 +92,29 @@ ArrayList를 공부할 때 잠깐 언급했듯이 크게 Set, List, Map로 구�
 - Set : 순서를 유지하지 않는 데이터 집합이다. 데이터의 중복을 허용하지 않고, HashSet, TreeSet 등이 있다.
 - List : 순서를 유지하는 데이터의 집합이다. 데이터의 중복이 허용되고, ArrayList, LinkedList 등이 있다.
 - Map : Key와 Value로 이루어진 데이터의 집합이다. 순서는 유지되지 않으며, 키는 중복을 허락하지 않는다. TreeMap, HashTable, HashMap등이 있다.
+
+#### Iterator - hasNext
+우선 Iterator를 사용하려면 당연히 Collection타입의 데이터가 있어야한다.
+```java
+HashSet set = new HashSet();
+set.add("a"); set.add("b"); set.add("c");
+Iterator it = set.iterator();
+
+while (it.hasNext()) {}
+```
+hasNext의 반환값은 boolean 타입이다. 다음 데이터가 없을 때까지 while문을 실행한다.
+
+#### Iterator - next
+```java
+while (it.hasNext()) {
+  System.out.println(it.next()); //a, b, c
+}
+```
+next가 반환한 다음 데이터를 출력했다.
+
+
+
+
+
+    
+
