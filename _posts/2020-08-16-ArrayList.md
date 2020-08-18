@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ArrayList"
+title: "data structure - ArrayList"
 subtitle: "java"
-date: 2020-08-14 16:00:00 +0900
+date: 2020-08-16 16:00:00 +0900
 background: '/img/posts/image0.jpeg'
 ---
 
