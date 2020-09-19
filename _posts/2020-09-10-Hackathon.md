@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post
 title: "Mini-Hackathon"
 subtitle: ""
 date: 2020-09-10 16:00:00 +0900
