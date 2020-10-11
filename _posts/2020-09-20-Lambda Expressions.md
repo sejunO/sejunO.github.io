@@ -48,7 +48,7 @@ public class Lambda {
 ```
 
 <pre>
-    <code>
+    <code class="java">
 
 public class Lambda {
     interface Calculator {
