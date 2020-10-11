@@ -2,7 +2,7 @@
 layout: post
 title: "Lambda Expressions"
 subtitle: "ㅅ"
-date: 2020-09-15 16:00:00 +0900
+date: 2020-09-20 16:00:00 +0900
 background: '/img/posts/image0.jpeg'
 ---
 
@@ -47,7 +47,9 @@ public class Lambda {
 }
 ```
 
-```java
+<pre>
+    <code>
+
 public class Lambda {
     interface Calculator {
         int compute(int a, int b);
@@ -57,4 +59,6 @@ public class Lambda {
         c1.compute(1, 2);
     }
 }
+    </code>
+</pre>
 
