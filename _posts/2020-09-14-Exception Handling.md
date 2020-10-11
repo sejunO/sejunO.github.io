@@ -4,6 +4,7 @@ title: "Exception Handling"
 subtitle: "멈추지마"
 date: 2020-09-14 16:00:00 +0900
 background: '/img/posts/image0.jpeg'
+tags: [dont, mistake]
 ---
 
 새로운 주제가 나올 때마다 대학 수업이 생각난다. 이제는 내가 이해를 못 한게 아니라 할 생각이 없던 것 같다.<br>
