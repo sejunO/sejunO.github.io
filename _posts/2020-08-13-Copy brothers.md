@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "얕은 복사와 깊은 복사"
+title: "Copy brothers"
 subtitle: "java"
 date: 2020-08-13 19:30:00 +0900
 background: '/img/posts/image0.jpeg'
