@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "  "
+title: ""
 subtitle: ""
 date: 2020-09-20 16:00:00 +0900
 background: '/img/posts/image0.jpeg'
